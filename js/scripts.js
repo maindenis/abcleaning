@@ -72,4 +72,26 @@ $(document).ready(function() {
         }
     });
 
+    // --------------
+
+    var mapZoom;
+    var lat;
+    var long;
+    mapZoom = $("#map").attr("data-zoom");
+    lat = $("#map").attr("data-lat");
+    long = $("#map").attr("data-long");
+    ymaps.ready(function () {        
+        var myMap = new ymaps.Map('map', {
+            center: [long, lat],
+            zoom: mapZoom
+        }, {
+            searchControlProvider: 'yandex#search'
+        });
+        myPlacemark1 = new ymaps.Placemark([long, lat], {
+            hintContent: ''
+        }, {
+        });
+        myMap.geoObjects.add(myPlacemark1);        
+    });
+
 });
