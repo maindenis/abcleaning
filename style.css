@@ -411,7 +411,7 @@ textarea:focus {
 
 .promo_templ > div:nth-child(1) {
     width: calc(100% - 510px);
-    padding: 23px 10px 0 0;
+    padding: 23px 16px 0 0;
 }
 
 .promo_templ > div:nth-child(2) {
@@ -1589,10 +1589,6 @@ textarea:focus {
     padding: 12px 0 12px 0; 
 }
 
-.packages_thumbs_sect {
-
-}
-
 .packages_thumbs_sect h2 {
     text-align: center;
 }
@@ -1643,14 +1639,6 @@ textarea:focus {
     padding-bottom: 16px;
 }
 
-.package_thumb_price > div:nth-child(1) {
-
-}
-
-.package_thumb_price > div:nth-child(2) {
-
-}
-
 .package_thumb_price > div:nth-child(3) {
     padding: 9px 0 0 7px;
 }
@@ -1690,10 +1678,6 @@ textarea:focus {
     left: 0;
 }
 
-.package_thumb_content {
-
-}
-
 .package_thumb_content > p {
     padding: 7px 0;
 }
@@ -1724,14 +1708,6 @@ textarea:focus {
     position: relative;
 } 
 
-.package_item p {
-
-}
-
-.btn_wrapp_2 {
-
-}
-
 .btn_wrapp_2 .pink_pill_2 {
     width: 100%;
 }
@@ -1752,6 +1728,374 @@ textarea:focus {
 }
 
 /*-- /Section 8 - Main Page 2 --*/
+
+/*-- Section 2 - Service 01 --*/
+
+.sect_2_s_01 {
+    padding: 66px 0 42px 0;
+}
+
+.service_article {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 9px 0;
+}
+
+.service_article > div:nth-child(1) {
+    width: 50%;
+    padding: 10px 17px 10px 0;
+}
+
+.service_article > div:nth-child(2) {
+    width: 50%;
+    padding: 10px 0 10px 17px;
+}
+
+.service_article > div:nth-child(1) img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.service_article > div:nth-child(2) h3 {
+    padding-bottom: 22px;
+    font-size: 42px;
+    line-height: 59px;
+}
+
+.service_article > div:nth-child(2) p {
+    padding: 8px 0;
+}
+
+.service_article > div:nth-child(2) p b {
+    font-weight: 600;
+}
+
+.service_article:nth-child(even) > div:nth-child(1) {
+    width: 50%;
+    order: 2;
+    padding: 10px 0 10px 17px;
+}
+
+.service_article:nth-child(even) > div:nth-child(2) {
+    width: 50%;
+    order: 1;
+    padding: 10px 17px 10px 0;
+}
+
+/*-- /Section 2 - Service 01 --*/
+
+.sect_8_sp {
+    margin: 13px 0 91px 0;
+}
+
+/*-- Section 1 - Service 02 --*/
+
+.promo_templ_2 h1 {
+    line-height: 120%;
+}
+
+.promo_templ_2 h1 span.small {
+    font-size: 32px;
+    line-height: 120%;
+    color: #0F141A;
+}
+
+/*-- /Section 1 - Service 02 --*/
+
+/*-- Section 3 - Service 02 --*/
+
+.sect_3_s_01 {
+    padding: 53px 0 48px 0;
+}
+
+.price_box {
+    margin: 58px 0 23px 0;
+    padding: 26px 48px;
+    background: #F0F2F5;
+    border-radius: 29px;
+}
+
+.price_table {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    display: table;
+}
+
+.table_row {
+    display: table-row;
+    position: relative;
+}
+
+.table_row > div:nth-child(1):after {
+    display: block;
+    content: "";
+    width: 100%;
+    border-bottom: 5px dotted #66696E;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+}
+
+.table_row > div:nth-child(1) {
+    display: table-cell;
+    padding: 0 10px 0 0;
+}
+
+.table_row > div:nth-child(2) {
+    display: table-cell;
+    width: 100%;
+    padding: 0 0 0 10px;
+    text-align: right;
+}
+
+.table_row p {
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+    padding: 6px 0;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #0F141A;
+    background: #F0F2F5;
+    position: relative;
+    z-index: 2;
+}
+
+.table_row > div:nth-child(1) p {
+    padding-right: 10px;
+}
+
+.table_row > div:nth-child(2) p {
+    min-width: 140px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.table_row p span {
+    color: #DE2180;
+}
+
+.prices_descript {
+    padding: 0 10px;
+    text-align: center;
+    color: #66696E;
+}
+
+.prices_descript + .btns_inlines_center {
+    padding: 22px 0 10px 0;
+}
+
+/*-- /Section 3 - Service 02 --*/
+
+/*-- Section 2 - Service 06 --*/
+
+.service_article > div:nth-child(1) img + p {
+    padding-top: 24px;
+}
+
+.grey_box_items {
+    margin: 34px 0 0 0;
+    padding: 18px 16px;
+    background: #F0F2F5;
+    border-radius: 20px;
+}
+
+.grey_box_items ul li {
+    margin: 13px 0;
+    position: relative;
+    padding-left: 30px;
+    color: #66696E;
+}
+
+.grey_box_items ul li:before {
+    display: block;
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-image: url(img/pink_mark.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.price_box + .btns_inlines_center {
+    padding-top: 0;
+}
+
+/*-- /Section 2 - Service 06 --*/
+
+/*-- Section - Advantages of Service --*/
+
+.adv_sect {
+    padding-top: 81px;
+}
+
+.adv_thumbs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px -15px 0 -15px;
+}
+
+.adv_thumb {
+    width: calc(25% - 30px);
+    margin: 15px;
+    text-align: center;
+}
+
+.adv_thumb .img_box {
+    height: 200px;
+    margin: 25px 0;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    background-color: #ededed;
+}
+
+.adv_thumb .img_box img {
+    display: block;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.adv_thumb h3 {
+    padding-bottom: 17px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0F141A;
+}
+
+.adv_thumb p {
+    color: #66696E;
+}
+
+/*-- /Section - Advantages of Service --*/
+
+/*-- Section 2 - Service 08 --*/
+
+.service_article > div:nth-child(1) img + h2 {
+    padding-top: 14px;
+}
+
+.service_article > div:nth-child(1) .grey_box_items {
+    margin-top: 23px;
+}
+
+.grey_box_items.none ul li:before {
+    background-image: url(img/grey_mark.svg);
+}
+
+.service_article > div:nth-child(2) h3 + .grey_box_items {
+    margin: 14px 0 0 0;
+}
+
+/*-- /Section 2 - Service 08 --*/
+
+/*-- Section 2 - Service 09 --*/
+
+.service_article.single {
+    padding: 12px 0;
+}
+
+.service_article.single:nth-child(even) > div:nth-child(1) {
+    width: 50%;
+    order: 1;
+    padding: 10px 17px 10px 0;
+}
+
+.service_article.single:nth-child(even) > div:nth-child(2) {
+    width: 50%;
+    order: 2;
+    padding: 10px 0 10px 17px;
+}
+
+.service_article.single > div:nth-child(1) h2 + p {
+    padding-top: 28px;
+}
+
+.service_article.single > div:nth-child(1) h2 + p + img {
+    margin-top: 32px;
+}
+
+.service_article.single > div:nth-child(2) h2 {
+    padding-top: 19px;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.service_article.single > div:nth-child(2) h2 + .grey_box_items {
+    margin: 24px 0 0 0;
+}
+
+/*-- /Section 2 - Service 09 --*/
+
+/*-- Section 3 - Service 09 --*/
+
+.h2_wrapp_2 p {
+    padding: 23px 0 6px 0;
+}
+
+/*-- /Section 3 - Service 09 --*/
+
+/*-- Section 2 - Service 10 --*/
+
+.grey_list {
+    margin: 53px 0 17px 0;
+    padding: 19px 16px 18px 16px;
+    background: #F0F2F5;
+    border-radius: 20px;
+}
+
+.grey_list ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grey_list ul li {
+    width: calc(25% - 30px);
+    margin: 12px 15px;
+    padding-left: 35px;
+    color: #66696E;
+    position: relative;
+}
+
+.grey_list ul li:before {
+    display: block;
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-image: url(img/pink_mark.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*-- /Section 2 - Service 10 --*/
+
+/*-- Section 4 - Service 10 --*/
+
+.price_table_2 {
+    max-width: 1117px;
+}
+
+/*-- /Section 4 - Service 10 --*/
+
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
