@@ -10,3 +10,6 @@
 # https://maindenis.github.io/abcleaning/service_08.html
 # https://maindenis.github.io/abcleaning/service_09.html
 # https://maindenis.github.io/abcleaning/service_10.html
+# https://maindenis.github.io/abcleaning/article_01.html
+# https://maindenis.github.io/abcleaning/article_02.html
+# https://maindenis.github.io/abcleaning/article_03.html
