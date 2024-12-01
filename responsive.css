@@ -14,6 +14,41 @@
 
 }
 
+@media only screen and (max-width: 1240px) {
+
+/*-- Section 1 - Politic Page --*/
+
+.title_two_cols {
+    padding: 0 0 5px 0;
+}
+
+.title_two_cols > div:nth-child(1) {
+    width: 100%;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+
+.title_two_cols > div:nth-child(2) {
+    width: 100%;
+    padding: 36px 0 10px 0;
+}
+
+.politic_text {
+    padding: 6px 0 0 0;
+}
+
+.politic_text > div {
+    padding: 10px 0;
+}
+
+.politic_footer {
+    padding: 18px 0 49px 0;
+}
+
+/*-- /Section 1 - Politic Page --*/
+
+}
+
 @media only screen and (max-width: 1124px) {
 
 .visible_1124 {
@@ -1081,6 +1116,19 @@
 }
 
 /*-- /Section 3 - Article 03 --*/
+
+/*-- Section 1 - Politic Page --*/
+
+.sect_1_pp {
+    padding-top: 121px;
+}
+
+.title_two_cols h2 {
+    font-size: 40px;
+    line-height: 56px;
+}
+
+/*-- /Section 1 - Politic Page --*/
 
 /*-- Footer --*/
 

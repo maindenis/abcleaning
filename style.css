@@ -2573,14 +2573,62 @@ textarea:focus {
 
 /*-- /Section 3 - Article 03 --*/
 
+/*-- Section 1 - Politic Page --*/
+
+.title_two_cols {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0 5px 0;
+}
+
+.title_two_cols > div:nth-child(1) {
+    width: 42%;
+    padding: 10px 10px 10px 0;
+}
+
+.title_two_cols > div:nth-child(2) {
+    width: 58%;
+    padding: 20px 0 10px 10px;
+}
+
+.title_two_cols > div:nth-child(2) p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #66696E; 
+}
+
+.politic_text {
+    padding: 78px 0 0 0;
+}
+
+.politic_text > div {
+    padding: 15px 0;
+}
+
+.politic_text p b {
+    font-weight: 600;
+}
+
+.politic_footer {
+    padding: 60px 0 64px 0;
+}
+
+.politic_footer p a {
+    text-decoration-line: underline;
+    color: #DE2180;
+}
+
+.politic_footer p a:hover {
+    text-decoration-line: none;
+}
+
+
+/*-- /Section 1 - Politic Page --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
 /*-------------------------------------------*/
-
-footer {
-
-}
 
 .footer_section {
     background: #F0F2F5;
