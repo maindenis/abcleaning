@@ -13,3 +13,4 @@
 # https://maindenis.github.io/abcleaning/article_02.html
 # https://maindenis.github.io/abcleaning/article_03.html
 # https://maindenis.github.io/abcleaning/politic.html
+# https://maindenis.github.io/abcleaning/404.html

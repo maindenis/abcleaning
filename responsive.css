@@ -1130,6 +1130,22 @@
 
 /*-- /Section 1 - Politic Page --*/
 
+/*-- Section 1 - 404 Page --*/
+
+.sect_1_404 {
+    padding: 177px 0 105px 0;
+}
+
+.templ_404 > div:nth-child(1) {
+    width: 150px;
+}
+
+.templ_404 > div:nth-child(2) {
+    width: calc(100% - 150px);
+}
+
+/*-- /Section 1 - 404 Page --*/
+
 /*-- Footer --*/
 
 .footer_templ > div:nth-child(1) {
@@ -1147,6 +1163,42 @@
 }
 
 /*-- /Footer --*/
+
+}
+
+@media only screen and (max-width: 768px) {
+
+/*-- Section 1 - 404 Page --*/
+
+.templ_404 {
+    max-width: 644px;
+}
+
+.templ_404 > div:nth-child(1) {
+    width: 250px;
+}
+
+.templ_404 > div:nth-child(2) {
+    width: calc(100% - 250px);
+}
+
+.inputs_404 {
+    margin: 0;
+    padding: 15px 0 10px 0;
+}
+
+.inputs_404 > div {
+    width: 100%;
+    margin: 6px 0;
+}
+
+.templ_404 h2 {
+    padding: 14px 0 3px 0;
+    font-size: 32px;
+    line-height: 140%;
+}
+
+/*-- /Section 1 - 404 Page --*/
 
 }
 
@@ -1455,6 +1507,53 @@
 }
 
 /*-- /Section 2 - Article 01 --*/
+
+/*-- Section 1 - 404 Page --*/
+
+.sect_1_404 {
+    padding: 106px 0 21px 0;
+}
+
+.templ_404 > div:nth-child(1) {
+    width: 48px;
+    margin: 0 auto;
+}
+
+.templ_404 > div:nth-child(2) {
+    width: 100%;
+    text-align: center;
+    padding: 14px 0 10px 0;
+}
+
+.counter_input {
+    height: 40px;
+}
+
+.counter_input button {
+    height: 40px;
+}
+
+.counter_input input {
+    height: 40px;
+}
+
+.input_tel_wrapp {
+    height: 40px;
+}
+
+.input_tel_wrapp > div:nth-child(1) input {
+    height: 40px;
+}
+
+.input_tel_wrapp > div:nth-child(2) input {
+    height: 40px;
+}
+
+.inputs_404 .pink_pill_2 {
+    margin: 10px 0;
+}
+
+/*-- /Section 1 - 404 Page --*/
 
 }
 

@@ -117,6 +117,37 @@ $(document).ready(function() {
 
     // --------------
 
+    $(".counter_input button").on("click", function(e) {
+        e.preventDefault();
+        parent = $(this).closest(".counter_input_wrapp");
+        input = parent.find("input");
+        input_vals = parent.find(".input_vals");
+        activeIndex = input.attr("data-actual-index");
+        counter = activeIndex;
+        maxVal = input_vals.find("li").length;
+        if($(this).hasClass("minus")) {
+            if(counter > 1) {
+                counter--;
+            }
+        } else {
+            if(counter < maxVal) {
+                counter++;
+            }
+        }
+        input.attr("data-actual-index", counter)
+        input.val(input_vals);
+        text = parent.find(".input_vals [data-index = '"+counter+"']").text();
+        input.val(text);
+    });
+
+    // --------------
+
+    if($("[type='tel']").length > 0) {
+        $("[type='tel']").inputmask({"mask": "9999 - 9999"});
+    }
+
+    // --------------
+
     // var mapZoom;
     // var lat;
     // var long;
