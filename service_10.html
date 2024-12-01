@@ -8,12 +8,11 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">
 	<title></title>
-	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </head>
 <body>
 	<div class="wrapper">
 	<!-- Header -->		
-	<header>
+	<header id="header">
 		<div class="row">
 			<div class="header_site">
 				<div>
@@ -22,7 +21,10 @@
 					</a>
 				</div>
 				<div>
+					<button type="button" class="respBtn"></button>
 					<div id="respNav">
+						<button type="button" class="close_nav closeNav"></button>
+						<img class="resp_logo" src="img/resp_logo.svg" loading="lazy" alt="" />
 						<ul class="resp_nav">
 							<li><a href="#">О нас</a></li>
 							<li><a href="#">Услуги</a></li>
@@ -39,6 +41,7 @@
 					</div>
 				</div>
 			</div>
+			<div class="resp_menu_bg res_bg"></div>
 		</div>
 	</header>
 	<!-- /Header -->
@@ -61,7 +64,7 @@
 					</div>
 				</div>
 				<div>
-					<div class="promo_images">
+					<div class="promo_images promo_images_2">
 						<img class="grid" src="img/grid.svg" alt="" loading="lazy" />
 						<div class="circle circle_1"></div>
 						<div class="circle circle_2"></div>
@@ -88,41 +91,60 @@
 		<div class="row">
 			<div class="service_article">
 				<div>
-					<img src="img/img_99.jpg" alt="" />
+					<div class="img_box s11">
+						<img src="img/img_99.jpg" alt="" />
+					</div>
 				</div>
 				<div>
-					<h2>Мойка балконных стекол</h2>
+					<h3>Мойка балконных стекол</h3>
 					<p>Мойка балконных стекол требует особого подхода и тщательной работы с учетом всех деталей. Мы обеспечим чистоту балконных окон, уделяя внимание как внутренним, так и наружным поверхностям. При необходимости, используем специальное оборудование для мойки балконов снаружи.</p>
 					<p><b>Стоимость мойки балконных стекол обсуждается индивидуально</b> и зависит от сложности и площади работы.</p>
 				</div>
 			</div>
 			<div class="service_article">
 				<div>
-					<img src="img/img_100.jpg" alt="" />
+					<div class="img_box s11">
+						<img src="img/img_100.jpg" alt="" />
+					</div>
 				</div>
 				<div>
-					<h2>Мойка витрин</h2>
+					<h3>Мойка витрин</h3>
 					<p>Чистота витрин играет важную роль в привлечении клиентов и создании приятного впечатления. Мы предлагаем как разовую мойку витрин, так и регулярное обслуживание для поддержания их в идеальном состоянии. Специальное оборудование позволяет нам качественно очищать витрины снаружи, даже в условиях повышенной загрязненности или на большой высоте.</p>
 					<p><b>Стоимость мойки витрин обсуждается индивидуально</b> и зависит от сложности и площади работы.</p>
 				</div>
 			</div>
 			<div class="service_article">
 				<div>
-					<img src="img/img_101.jpg" alt="" />
+					<div class="img_box s11">
+						<img src="img/img_101.jpg" alt="" />
+					</div>
 				</div>
 				<div>
-					<h2>Генеральная мойка окон</h2>
+					<h3>Генеральная мойка окон</h3>
 					<p>Эта услуга включает глубокую очистку стекол, рам, подоконников и фурнитуры. Мы тщательно удаляем все загрязнения, включая пыль, грязь и следы от атмосферных осадков.</p>
 				</div>
 			</div>
-			<div class="service_article single">
+			<div class="service_article single single_2">
 				<div>
+					<div class="visible_1124">
+						<div class="img_box s13">
+							<img src="img/img_103.jpg" alt="" />
+						</div>
+					</div>
 					<h2>Мытье окон</h2>
 					<p>Мы предлагаем как разовую, так и регулярную мойку окон для жилых и коммерческих помещений. Услуга включает полную очистку стекол с двух сторон, рам, подоконников и фурнитуры. При необходимости мы можем использовать специальное оборудование для наружной мойки, что особенно важно для окон на высоких этажах или в труднодоступных местах.</p>
-					<img src="img/img_102.jpg" alt="" />
+					<div class="novisible_1124">
+						<div class="img_box s12">
+							<img src="img/img_102.jpg" alt="" />
+						</div>
+					</div>
 				</div>
 				<div>
-					<img src="img/img_103.jpg" alt="" />
+					<div class="novisible_1124">
+						<div class="img_box s13">
+							<img src="img/img_103.jpg" alt="" />
+						</div>
+					</div>
 					<h2>Процесс мойки окон включает:</h4>
 					<div class="grey_box_items">
 						<ul>
@@ -165,7 +187,7 @@
 			<div class="h2_wrapp h2_wrapp_2">
 				<h2>Примерная стоимость мойки окон</h2>
 			</div>
-			<div class="price_box">
+			<div class="price_box price_box_2">
 				<div class="price_table price_table_2">
 					<div class="table_row">
 						<div>
@@ -429,10 +451,11 @@
 	<!-- /Footer -->
 	</div>
 	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<link rel="stylesheet" type="text/css" href="resp_mob.css">
 	<link rel="stylesheet" type="text/css" href="vendors/css/slick.css">
 	<script src="vendors/js/jquery.js"></script>
 	<script src="vendors/js/slick.min.js"></script>
-	<script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU"></script>
+	<!-- <script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU"></script> -->
 	<script src="js/scripts.js"></script>
 </body>
 </html>

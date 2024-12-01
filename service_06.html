@@ -8,12 +8,11 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">
 	<title></title>
-	<!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
 </head>
 <body>
 	<div class="wrapper">
 	<!-- Header -->		
-	<header>
+	<header id="header">
 		<div class="row">
 			<div class="header_site">
 				<div>
@@ -22,7 +21,10 @@
 					</a>
 				</div>
 				<div>
+					<button type="button" class="respBtn"></button>
 					<div id="respNav">
+						<button type="button" class="close_nav closeNav"></button>
+						<img class="resp_logo" src="img/resp_logo.svg" loading="lazy" alt="" />
 						<ul class="resp_nav">
 							<li><a href="#">О нас</a></li>
 							<li><a href="#">Услуги</a></li>
@@ -39,6 +41,7 @@
 					</div>
 				</div>
 			</div>
+			<div class="resp_menu_bg res_bg"></div>
 		</div>
 	</header>
 	<!-- /Header -->
@@ -61,7 +64,7 @@
 					</div>
 				</div>
 				<div>
-					<div class="promo_images">
+					<div class="promo_images promo_images_2">
 						<img class="grid" src="img/grid.svg" alt="" loading="lazy" />
 						<div class="circle circle_1"></div>
 						<div class="circle circle_2"></div>
@@ -88,8 +91,12 @@
 		<div class="row">
 			<div class="service_article">
 				<div>
-					<img src="img/img_74.jpg" alt="" />
-					<p>Регулярная уборка может быть организована в удобное для вас время, а частота её проведения зависит от ваших потребностей — от еженедельной уборки для жилых помещений до ежедневной для коммерческих объектов. Наши специалисты используют только безопасные и экологически чистые средства, что обеспечивает бережное отношение к вашему здоровью и окружающей среде.</p>
+					<div class="img_box s7">
+						<img src="img/img_74.jpg" alt="" />
+					</div>
+					<div class="novisible_1124">
+						<p>Регулярная уборка может быть организована в удобное для вас время, а частота её проведения зависит от ваших потребностей — от еженедельной уборки для жилых помещений до ежедневной для коммерческих объектов. Наши специалисты используют только безопасные и экологически чистые средства, что обеспечивает бережное отношение к вашему здоровью и окружающей среде.</p>
+					</div>
 				</div>
 				<div>
 					<h3>Что входит в стандартный пакет регулярной уборки?</h3>
@@ -101,6 +108,9 @@
 							<li>Санитарная уборка ванных комнат и кухни</li>
 							<li>Чистка мебели и техники на кухне снаружи</li>
 						</ul>
+					</div>
+					<div class="visible_1124">
+						<p>Регулярная уборка может быть организована в удобное для вас время, а частота её проведения зависит от ваших потребностей — от еженедельной уборки для жилых помещений до ежедневной для коммерческих объектов. Наши специалисты используют только безопасные и экологически чистые средства, что обеспечивает бережное отношение к вашему здоровью и окружающей среде.</p>
 					</div>
 				</div>
 			</div>
@@ -376,10 +386,11 @@
 	<!-- /Footer -->
 	</div>
 	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<link rel="stylesheet" type="text/css" href="resp_mob.css">
 	<link rel="stylesheet" type="text/css" href="vendors/css/slick.css">
 	<script src="vendors/js/jquery.js"></script>
 	<script src="vendors/js/slick.min.js"></script>
-	<script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU"></script>
+	<!-- <script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU"></script> -->
 	<script src="js/scripts.js"></script>
 </body>
 </html>

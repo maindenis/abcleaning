@@ -8,12 +8,11 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">
 	<title></title>
-	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </head>
 <body>
 	<div class="wrapper">
 	<!-- Header -->		
-	<header>
+	<header id="header">
 		<div class="row">
 			<div class="header_site">
 				<div>
@@ -22,7 +21,10 @@
 					</a>
 				</div>
 				<div>
+					<button type="button" class="respBtn"></button>
 					<div id="respNav">
+						<button type="button" class="close_nav closeNav"></button>
+						<img class="resp_logo" src="img/resp_logo.svg" loading="lazy" alt="" />
 						<ul class="resp_nav">
 							<li><a href="#">О нас</a></li>
 							<li><a href="#">Услуги</a></li>
@@ -39,13 +41,14 @@
 					</div>
 				</div>
 			</div>
+			<div class="resp_menu_bg res_bg"></div>
 		</div>
 	</header>
 	<!-- /Header -->
 	<!-- Content -->
 	<div class="content">
 	<!-- Section 1 - Package Services -->
-	<section>
+	<section class="sect_1_p_serv">
 		<div class="row">
 			<div class="h1_wrapp">
 				<h1>Комплексные пакеты уборки</h1>
@@ -833,10 +836,11 @@
 	<!-- /Footer -->
 	</div>
 	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<link rel="stylesheet" type="text/css" href="resp_mob.css">
 	<link rel="stylesheet" type="text/css" href="vendors/css/slick.css">
 	<script src="vendors/js/jquery.js"></script>
 	<script src="vendors/js/slick.min.js"></script>
-	<script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU"></script>
+	<!-- <script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU"></script> -->
 	<script src="js/scripts.js"></script>
 </body>
 </html>

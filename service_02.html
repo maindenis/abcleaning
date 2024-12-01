@@ -8,12 +8,11 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">
 	<title></title>
-	<!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
 </head>
 <body>
 	<div class="wrapper">
 	<!-- Header -->		
-	<header>
+	<header id="header">
 		<div class="row">
 			<div class="header_site">
 				<div>
@@ -22,7 +21,10 @@
 					</a>
 				</div>
 				<div>
+					<button type="button" class="respBtn"></button>
 					<div id="respNav">
+						<button type="button" class="close_nav closeNav"></button>
+						<img class="resp_logo" src="img/resp_logo.svg" loading="lazy" alt="" />
 						<ul class="resp_nav">
 							<li><a href="#">О нас</a></li>
 							<li><a href="#">Услуги</a></li>
@@ -39,6 +41,7 @@
 					</div>
 				</div>
 			</div>
+			<div class="resp_menu_bg res_bg"></div>
 		</div>
 	</header>
 	<!-- /Header -->
@@ -61,7 +64,7 @@
 					</div>
 				</div>
 				<div>
-					<div class="promo_images">
+					<div class="promo_images promo_images_2">
 						<img class="grid" src="img/grid.svg" alt="" loading="lazy" />
 						<div class="circle circle_1"></div>
 						<div class="circle circle_2"></div>
@@ -84,11 +87,13 @@
 	</section>
 	<!-- /Section 1 - Service 02 -->
 	<!-- Section 2 - Service 02 -->
-	<section>
+	<section class="sect_2_s_01">
 		<div class="row">
 			<div class="service_article">
 				<div>
-					<img src="img/img_39.jpg" alt="" />
+					<div class="img_box s2">
+						<img src="img/img_39.jpg" alt="" />
+					</div>
 				</div>
 				<div>
 					<h3>Глубокая уборка пола</h3>
@@ -97,7 +102,9 @@
 			</div>
 			<div class="service_article">
 				<div>
-					<img src="img/img_40.jpg" alt="" />
+					<div class="img_box s2">
+						<img src="img/img_40.jpg" alt="" />
+					</div>
 				</div>
 				<div>
 					<h3>Мытье бетонных полов</h3>
@@ -106,7 +113,9 @@
 			</div>
 			<div class="service_article">
 				<div>
-					<img src="img/img_41.jpg" alt="" />
+					<div class="img_box s2">
+						<img src="img/img_41.jpg" alt="" />
+					</div>
 				</div>
 				<div>
 					<h3>Мытье и уход за ламинатом</h3>
@@ -115,7 +124,9 @@
 			</div>
 			<div class="service_article">
 				<div>
-					<img src="img/img_42.jpg" alt="" />
+					<div class="img_box s2">
+						<img src="img/img_42.jpg" alt="" />
+					</div>
 				</div>
 				<div>
 					<h3>Чистка паркетных и деревянных полов</h3>
@@ -124,7 +135,9 @@
 			</div>
 			<div class="service_article">
 				<div>
-					<img src="img/img_43.jpg" alt="" />
+					<div class="img_box s2">
+						<img src="img/img_43.jpg" alt="" />
+					</div>
 				</div>
 				<div>
 					<h3>Уборка плиточных и керамогранитных полов</h3>
@@ -404,10 +417,11 @@
 	<!-- /Footer -->
 	</div>
 	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<link rel="stylesheet" type="text/css" href="resp_mob.css">
 	<link rel="stylesheet" type="text/css" href="vendors/css/slick.css">
 	<script src="vendors/js/jquery.js"></script>
 	<script src="vendors/js/slick.min.js"></script>
-	<script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU"></script>
+	<!-- <script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU"></script> -->
 	<script src="js/scripts.js"></script>
 </body>
 </html>

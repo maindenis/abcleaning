@@ -8,12 +8,11 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">
 	<title></title>
-	<!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
 </head>
 <body>
 	<div class="wrapper">
 	<!-- Header -->		
-	<header>
+	<header id="header">
 		<div class="row">
 			<div class="header_site">
 				<div>
@@ -22,7 +21,10 @@
 					</a>
 				</div>
 				<div>
+					<button type="button" class="respBtn"></button>
 					<div id="respNav">
+						<button type="button" class="close_nav closeNav"></button>
+						<img class="resp_logo" src="img/resp_logo.svg" loading="lazy" alt="" />
 						<ul class="resp_nav">
 							<li><a href="#">О нас</a></li>
 							<li><a href="#">Услуги</a></li>
@@ -39,6 +41,7 @@
 					</div>
 				</div>
 			</div>
+			<div class="resp_menu_bg res_bg"></div>
 		</div>
 	</header>
 	<!-- /Header -->
@@ -61,7 +64,7 @@
 					</div>
 				</div>
 				<div>
-					<div class="promo_images">
+					<div class="promo_images promo_images_2">
 						<img class="grid" src="img/grid.svg" alt="" loading="lazy" />
 						<div class="circle circle_1"></div>
 						<div class="circle circle_2"></div>
@@ -88,12 +91,23 @@
 		<div class="row">
 			<div class="service_article single">
 				<div>
+					<div class="visible_700">
+						<div class="img_box s10">
+							<img src="img/img_91.jpg" alt="" />
+						</div>
+					</div>
 					<h2>Уборка после переезда</h2>
 					<p>Переезд — это всегда хлопоты и стресс, но мы готовы помочь вам облегчить этот процесс.</p>
-					<img src="img/img_90.jpg" alt="" />
+					<div class="img_box s9">
+						<img src="img/img_90.jpg" alt="" />
+					</div>
 				</div>
 				<div>
-					<img src="img/img_91.jpg" alt="" />
+					<div class="novisible_700">
+						<div class="img_box s10">
+							<img src="img/img_91.jpg" alt="" />
+						</div>
+					</div>
 					<h2>Что входит в услугу уборки после переезда?</h2>
 					<div class="grey_box_items">
 						<ul>
@@ -108,12 +122,23 @@
 			</div>
 			<div class="service_article single">
 				<div>
+					<div class="visible_700">
+						<div class="img_box s10">
+							<img src="img/img_93.jpg" alt="" />
+						</div>
+					</div>
 					<h2>Уборка после ремонта</h2>
 					<p>После ремонта в помещении всегда остается много пыли и строительных загрязнений.</p>
-					<img src="img/img_92.jpg" alt="" />
+					<div class="img_box s9">
+						<img src="img/img_92.jpg" alt="" />
+					</div>
 				</div>
 				<div>
-					<img src="img/img_93.jpg" alt="" />
+					<div class="novisible_700">
+						<div class="img_box s10">
+							<img src="img/img_93.jpg" alt="" />
+						</div>
+					</div>
 					<h2>Что входит в услугу уборки после ремонта?</h4>
 					<div class="grey_box_items">
 						<ul>
@@ -127,12 +152,23 @@
 			</div>
 			<div class="service_article single">
 				<div>
+					<div class="visible_700">
+						<div class="img_box s10">
+							<img src="img/img_95.jpg" alt="" />
+						</div>
+					</div>
 					<h2>Уборка после строительства</h2>
 					<p>Строительные работы оставляют за собой множество следов, требующих профессионального подхода.</p>
-					<img src="img/img_94.jpg" alt="" />
+					<div class="img_box s9">
+						<img src="img/img_94.jpg" alt="" />
+					</div>
 				</div>
 				<div>
-					<img src="img/img_95.jpg" alt="" />
+					<div class="novisible_700">
+						<div class="img_box s10">
+							<img src="img/img_95.jpg" alt="" />
+						</div>
+					</div>
 					<h2>Что входит в услугу уборки после строительства?</h4>
 					<div class="grey_box_items">
 						<ul>
@@ -418,10 +454,11 @@
 	<!-- /Footer -->
 	</div>
 	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<link rel="stylesheet" type="text/css" href="resp_mob.css">
 	<link rel="stylesheet" type="text/css" href="vendors/css/slick.css">
 	<script src="vendors/js/jquery.js"></script>
 	<script src="vendors/js/slick.min.js"></script>
-	<script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU"></script>
+	<!-- <script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU"></script> -->
 	<script src="js/scripts.js"></script>
 </body>
 </html>
