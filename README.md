@@ -1,5 +1,4 @@
 # https://maindenis.github.io/abcleaning/index.html
-# https://maindenis.github.io/abcleaning/package_services.html
 # https://maindenis.github.io/abcleaning/service_01.html
 # https://maindenis.github.io/abcleaning/service_02.html
 # https://maindenis.github.io/abcleaning/service_03.html
